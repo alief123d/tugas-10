@@ -2,7 +2,7 @@
 
 2. CREATE TABLE `users` ( 
   `id` INT AUTO_INCREMENT,
-  `name` BINARY(255),
+  `name` VARCHAR(255),
   `email` VARCHAR(255),
   `password` VARCHAR(255),
    PRIMARY KEY (`id`)
